@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BETA VERSION</title>
+    <link rel="stylesheet" href="css/process.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="container">
+            <a class="logo" href="#">SMART<span>CITY</span></a>
+
+            <img id="mobile-cta" class="mobile-menu" src="images/menu.svg" alt="Open Navigation">
+
+            <nav>
+                <img id="mobile-exit" class="mobile-menu-exit" src="images/exit.svg" alt="Close Navigation">
+
+                <ul class="primary-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="shop.html">Product</a></li>
+                    <li class="current"><a href="#">Process</a></li>
+                </ul>
+
+                <ul class="secondary-nav">
+                    <li><a href="contact.html">Contact</a></li>
+                    <li class="go-premium-cta"><a href="engine.html">Account</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+      <!-- Projects Section -->
+  <div id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Recent <span>Projects</span></h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h2>Project 1</h2>
+            <h2>Traffic Light</h2>
+            <p>Bagaimana Arduino Bekerja <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;•	Input<br>
+                Tidak ada input di kasus ini . Semua operasi diatur berdasarkan waktu dan urutan yang telah ditentukan. <br>
+                
+                &nbsp;&nbsp;&nbsp;&nbsp;•	Proses <br>
+                Arduino akan mengatur durasi dari masing masing lampu (merah,kuning ,hijau). Durasi tersebut sudah di tentukan di dalam pemogramanya. 
+                lampu  akan berubah warna menjadi merah kuning dan hijau mengikuti pemograman yang sudah di atur. Misalnya, 
+                fase pertama adalah Merah untuk arah tertentu selama beberapa detik, diikuti oleh fase Kuning, dan kemudian Hijau untuk arah yang berlawanan. <br>
+                
+                &nbsp;&nbsp;&nbsp;&nbsp;•	Output <br>
+                Arduino akan mengontrol status lampu lalu lintas dengan menghidupkan atau mematikan LED Merah, Kuning, dan Hijau sesuai dengan urutan waktu yang telah di atur 
+            </p>
+          </div>
+          <div class="project-img">
+            <img src="images/NO_1.JPG" alt="img" class="center_image">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h2>Project 2</h2>
+            <h2>Automatic Parking Lot</h2>
+            <p>Bagaimana Arduino Bekerja <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;•    Input <br>
+                Sensor untuk medeteksi kendaraan nya adalah ultrasonic . Ketika kendaraan mendekat, sensor akan memberikan sinyal input kepada Arduino. <br>
+                
+                &nbsp;&nbsp;&nbsp;&nbsp;•	Proses <br>
+                Arduino akan membaca data dari  mendeteksi apakah ada kendaraan di dekat pintu tempat parkir Jika sensor mendeteksi kendaraan mendekat, 
+                Arduino akan menggerakkan servo motor untuk membuka pintu tempat parkir. Jika tidak ada kendaran maka pintu akan tertutup. <br>
+                
+                &nbsp;&nbsp;&nbsp;&nbsp;•	Output <br>
+                Ardiuno akan mengendalikan servo untuk membuka atau menutup pintu berdasarkan deteksi sensor kendaraan 
+                </p>
+          </div>
+          <div class="project-img">
+            <img src="images/NO_2.JPG" alt="img" class="center_image">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h2>Project 3</h2>
+            <h2>Automatic Street Light</h2>
+            <p>Bagaimana Arduino Bekerja <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;•	Input <br>
+                Kami menggunakan sensor pir (Passive Infrared) dan Photoresistor sensor untuk mendeteksi pergerakan dan mendeteksi intensitas cahaya di sekitar area nya. 
+                jika mendeteksi pergerakan atau mendeteksi intensitas cahaya yang menurun maka sensor-sensor tersebut akan mengirimkan sinyal ke ardiuno. <br>
+                
+                &nbsp;&nbsp;&nbsp;&nbsp;•	Proses <br>
+                Ardiuno akan membaca sinyal yang berasal dari sensor pir ketika sensor tersebut mendeteksi ada nya pergerakan dari seseorang, 
+                maka photoresistor sensor akan nyala dan mendeteksi intensitas cahaya di sekitar nya dan jika photoresistor sensor mendeteksi bahwa intensitas cahaya rendah 
+                maka ardiuno akan menghidupkan lampu, jika photoresistor sensor tidak mendeteksi intensitas cahaya di sekitarnya itu rendah maka lampu akan mati kembali. <br>
+                
+                &nbsp;&nbsp;&nbsp;&nbsp;•	Output <br>
+                Ardiuno akan mematikan dan menghidupan lampu berdasarkan deteksi pergerakan dan intensitas cahaya di sekitarnya yang di baca oleh sensor pir dan photoresistor sensor.
+            </p>
+          </div>
+          <div class="project-img">
+            <img src="images/NO_3.JPG" alt="img" class="center_image">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h2>Project 4</h2>
+            <h2>Automatic Train Crossbar</h2>
+            <p>Bagaimana Arduino Bekerja <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;•	Input <br>
+                Disini kami mengunakan sensor ultrasonik HC-SR04 untuk mendeteksi keberadaan kereta. Jika sensor mendeteksi kereta yang mendekat ia akan mengirimkan sinyal ke ardiuno.<br>
+                
+                &nbsp;&nbsp;&nbsp;&nbsp;•	Proses <br>
+                Saat sensor mendeteksi ada nya kereta yang mendekat kurang dari batas sensor yang sudah di tentukan maka peroses penurunan palang pintu kereta akan aktif 
+                (kami mengunakan servo untuk palang nya) dan mengeluarkan akan mengeluarkan suara untuk memperingati bahwa kereta akan lewat.<br>
+                
+                &nbsp;&nbsp;&nbsp;&nbsp;•	Output <br>
+                Ketika sensor mendeteksi ada nya kereta maka ia akan mingirimkan sinyal ke ardiuno dan ardiuno akan mengaktifkan buzzer untuk mengeluarkan suara dan servo untuk meunurukan palang.
+                </p>
+          </div>
+          <div class="project-img">
+            <img src="images/NO_4.JPG" alt="img" class="center_image">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h2>Project 5</h2>
+            <h2>Flood Warning Alarm</h2>
+            <p>Bagaimana Arduino Bekerja <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;•	Input <br>
+                Di sini kita menggunakan sensor ultrasonik HC-SR04 untuk medeteksi kedalaman nya, jika sensor medekteksi kedalaman yang nggak wajar maka dia akan mengirim sinyal ke papan Ardiuno.<br>
+                
+                &nbsp;&nbsp;&nbsp;&nbsp;•	Proses <br>
+                Jika sensor tidak mendeteksi kedalaman yang melebihi batas, maka dia akan menyalakan led warna hijau yang menandakan warna aman dan buzzer tidak akan di aktifkan. 
+                Jika sensor sudah mendekati batas sensor maka led kuning yang menandakan siaga akan menyala dan buzzer tidak akan nyala. Tetapi Jika sensor medeteksi kedalaman yang melebihi batas sensor, 
+                maka lampu led berwarna merah yang menandakan bahaya akan menyala dan buzzer pun akan juga ikut menyala atau berbunyi seperti alarm.<br>
+                
+                &nbsp;&nbsp;&nbsp;&nbsp;•	Output <br>
+                Ketika sensor medeteksi kedalaman yang tidak wajar maka ia akan mengirimkan sinyal ke papan Arduino dan Arduino akan mengaktifkan led merah dan buzzer yang menandakan bahaya.
+            </p>
+          </div>
+          <div class="project-img">
+            <img src="images/NO_5.JPG" alt="img" class="center_image">
+          </div>
+        </div>
+        <div class="project-item">
+            <div class="project-info">
+              <h2>Project 6</h2>
+              <h2>Password Door Lock</h2>
+              <p>Bagaimana Arduino Bekerja <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;•	Input <br>
+                pada tahap pertama, sensor yang digunakan untuk membaca input adalah keypad. Papan tombol akan memasukkan kode sandi pintu. Sensor akan mengirimkan data ke board Ardiono.<br>
+                
+                &nbsp;&nbsp;&nbsp;&nbsp;•	Proses <br>
+                Ardiono akan memproses data yang diterima sensor. Pada tahap ini Ardiono akan membandingkan passcode yang dimasukkan oleh admin dengan kode yang telah ditentukan sebelumnya. 
+                Jika kode sandi yang dimasukkan salah, pintu tidak akan terbuka. tetapi jika kode sandi yang dimasukkan benar, pintu akan terbuka.<br>
+                
+                &nbsp;&nbsp;&nbsp;&nbsp;•	Output <br>
+                Output dari ardiono dalam konteks ini adalah kunci pintu dengan password. Jika passcode benar maka Ardiono akan menyalakan motor servo untuk membuka pintu secara otomatis. 
+                Namun jika passcode yang dimasukkan salah maka servo yang ada di Ardiono akan tetap tertutup atau terkunci dan memberikan indikasi error melalui pesan di layar LCD.
+            </p>
+            </div>
+            <div class="project-img">
+              <img src="images/NO.6.png" alt="img" class="center_image">
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Projects Section -->
+  </body>
+
+
+<br>
+
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="footer-col-2">
+        <p>Our Purpose Is To Sustainably Make The World Better And Benefit of Technology Accessible to the Many.</p>
+      </div>
+      <div class="footer-col-3">
+        <h3>Useful Links</h3>
+        <ul>
+          <li>Blog Post</li>
+          <li>Return Policy</li>
+        </ul>
+      </div>
+      <div class="footer-col-4">
+        <h3>Follow us</h3>
+        <ul>
+          <li>Facebook</li>
+          <li>Twitter</li>
+          <li>Instagram</li>
+          <li>Join Affiliate</li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <p class="copyright">Copyright 2023 - Group 2</p>
+  </div>
+</div>
+
+    <script>
+
+        const mobileBtn = document.getElementById('mobile-cta')
+              nav = document.querySelector('nav')
+              mobileBtnExit = document.getElementById('mobile-exit');
+
+        mobileBtn.addEventListener('click', () => {
+            nav.classList.add('menu-btn');
+        })
+
+        mobileBtnExit.addEventListener('click', () => {
+            nav.classList.remove('menu-btn');
+        })
+    </script>
+</html>
